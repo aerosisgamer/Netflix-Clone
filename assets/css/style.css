@@ -153,6 +153,7 @@ body {
 .sub-heading{
   font-size: 1.6vw;
   margin-top: 20px;
+  text-align: center;
 }
 
 .new-user-section h3{
@@ -226,7 +227,9 @@ body {
   top: 30% !important;
   font-size: 13px;
   font-weight: 500;
+  transition: 0.2s;
 }
+
 
 /*-----------section-2------------*/
 
@@ -384,12 +387,27 @@ body {
 .faq-container {
   width: 80vw;
   margin: auto;
+  margin-bottom: 50px;
 }
 
 .faq {
+  margin-bottom: 10px;
+}
+
+.faq > .question, .answer{
   background-color: #2d2d2d;
   padding: 10px 30px;
-  margin-bottom: 10px;
+}
+
+.question {
+  justify-content: space-between;
+  margin-bottom: 1px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.question:hover {
+  background-color: #444444;
 }
 
 .question > p{
@@ -399,4 +417,16 @@ body {
 .question > span {
   font-size: 4.5vw;
   font-weight: lighter;
+}
+
+.answer {
+  transition: 0.2s;
+}
+
+.answer > p {
+  font-size: 1.6vw;
+}
+
+#user-data-2 {
+  padding-bottom: 70px;
 }

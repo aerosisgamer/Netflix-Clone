@@ -64,13 +64,14 @@
                 membership.
               </h3>
               <div class="user-data m-auto d-flex align-center justify-center">
-                <div class="user-email p-rel">
+                <div class="user-email p-rel" id="user-email">
                   <input
                     type="email"
                     name="new-email"
                     class="new-user-email p-abs"
+                    id="input-email"
                   />
-                  <label for="new-email" class="text-white p-abs"
+                  <label for="new-email" id="email-label" class="text-white p-abs"
                     >Email address</label
                   >
                 </div>
@@ -86,19 +87,26 @@
             </div>
           </div>
         </div>
-        
       </div>
 
       <!-- section-2 -->
       <div class="tv-section mt-8 d-flex align-center">
         <div class="tv-section-moto">
           <h1 class="tv-heading text-white">Enjoy on your TV</h1>
-          <p class="tv-sub-heading text-white">Watch on smart TVs, PlayStation, Xbox,<br>Chromecast, Apple TV, Blu-ray players and <br>more.</p>
+          <p class="tv-sub-heading text-white">
+            Watch on smart TVs, PlayStation, Xbox,<br />Chromecast, Apple TV,
+            Blu-ray players and <br />more.
+          </p>
         </div>
         <div class="tv-sample d-flex p-rel">
-          <img class="z-index-high p-rel" src="assets/pictures/tv.png" alt="">
+          <img class="z-index-high p-rel" src="assets/pictures/tv.png" alt="" />
           <div class="tv-vid p-abs">
-            <video class="" src="assets/videos/tv-video.m4v" autoplay loop></video>
+            <video
+              class=""
+              src="assets/videos/tv-video.m4v"
+              autoplay
+              loop
+            ></video>
           </div>
         </div>
       </div>
@@ -106,19 +114,29 @@
       <!-- section-3 -->
       <div class="section-3 d-flex align-center justify-center mt-8">
         <div class="section-3-images p-rel">
-          <img class="mob-screen" src="assets/pictures/mobile-0819.jpg" alt="phone-screen">
+          <img
+            class="mob-screen"
+            src="assets/pictures/mobile-0819.jpg"
+            alt="phone-screen"
+          />
           <div class="mob-data p-abs d-flex align-center">
-            <img src="assets/pictures/boxshot.png" alt="movie-img">
+            <img src="assets/pictures/boxshot.png" alt="movie-img" />
             <div class="movie-name">
               <p class="text-white">Stranger Things</p>
               <p>Downloading...</p>
             </div>
-            <img class="downloading-gif" src="assets/videos/download-icon.gif" alt="">
+            <img
+              class="downloading-gif"
+              src="assets/videos/download-icon.gif"
+              alt=""
+            />
           </div>
         </div>
         <div class="section-3-content text-white">
-          <h1>Download your<br>shows to watch<br>offline</h1>
-          <p>Save your favourites easily and always have<br>something to watch.</p>
+          <h1>Download your<br />shows to watch<br />offline</h1>
+          <p>
+            Save your favourites easily and always have<br />something to watch.
+          </p>
         </div>
       </div>
 
@@ -126,23 +144,37 @@
       <div class="section-4 mt-8 d-flex align-center justify-center">
         <div class="section-4-content text-white">
           <h1>Watch everywhere</h1>
-          <p>Stream unlimited movies and TV shows on your<br>
-          phone, tablet, laptop, and TV.</p>
+          <p>
+            Stream unlimited movies and TV shows on your<br />
+            phone, tablet, laptop, and TV.
+          </p>
         </div>
         <div class="section-4-img d-flex align-center p-rel">
-          <img class="z-index-high" src="assets/pictures/device-pile-in.png" alt="devices">
+          <img
+            class="z-index-high"
+            src="assets/pictures/device-pile-in.png"
+            alt="devices"
+          />
           <div class="desktop-vid p-abs">
-            <video class="z-index-low" src="assets/videos/video-devices-in.m4v" autoplay loop></video>
+            <video
+              class="z-index-low"
+              src="assets/videos/video-devices-in.m4v"
+              autoplay
+              loop
+            ></video>
           </div>
         </div>
       </div>
 
       <!-- section-5 -->
       <div class="section-5 mt-8 d-flex align-center justify-center">
-        <img src="assets/pictures/kid-space.png" alt="kids-space">
+        <img src="assets/pictures/kid-space.png" alt="kids-space" />
         <div class="section-5-content text-white">
-          <h1>Create profile for<br>kids</h1>
-          <p>Send children on adventures with their<br>favourite characters in a space made just for<br>them—free with your membership.</p>
+          <h1>Create profile for<br />kids</h1>
+          <p>
+            Send children on adventures with their<br />favourite characters in
+            a space made just for<br />them—free with your membership.
+          </p>
         </div>
       </div>
 
@@ -154,91 +186,135 @@
         <div class="faq-container text-white">
 
           <div class="faq">
-            <div class="question d-flex align-center">
+            <div class="question d-flex align-center" id="question">
               <p>What is Netflix ?</p>
-              <span class="material-symbols-outlined">
-                add
+              <span class="material-symbols-outlined"> add </span>
+            </div>
+            <div class="answer d-none" id="answer">
+              <p>
+                Netflix is a streaming service that offers a wide variety of
+                award-winning TV shows, movies,<br />anime, documentaries and
+                more – on thousands of internet-connected devices.<br /><br />
+
+                You can watch as much as you want, whenever you want, without a
+                single ad – all for one<br />low monthly price. There's always
+                something new to discover, and new TV shows and<br />movies are
+                added every week!
+              </p>
+            </div>
+          </div>
+
+          <div class="faq">
+            <div class="question d-flex align-center" id="question">
+              <p>How much does Netflix cost ?</p>
+              <span class="material-symbols-outlined"> add </span>
+            </div>
+            <div class="answer d-none" id="answer">
+              <p>
+                Watch Netflix on your smartphone, tablet, Smart TV, laptop, or
+                streaming device, all for<br />one fixed monthly fee. Plans
+                range from ₹149 to ₹649 a month. No extra costs, no<br />contracts.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq">
+            <div class="question d-flex align-center" id="question">
+              <p>Where can i watch ?</p>
+              <span class="material-symbols-outlined"> add </span>
+            </div>
+            <div id="answer" class="answer d-none">
+              <p>
+                Watch anywhere, anytime. Sign in with your Netflix account to
+                watch instantly on the web<br />at netflix.com from your
+                personal computer or on any internet-connected device that<br />offers
+                the Netflix app, including smart TVs, smartphones, tablets,
+                streaming media players<br />and game consoles.<br /><br />You
+                can also download your favourite shows with the iOS, Android, or
+                Windows 10 app.<br />Use downloads to watch while you're on the
+                go and without an internet connection. Take<br />Netflix with
+                you anywhere.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq">
+            <div class="question d-flex align-center" id="question">
+              <p>How do i cancle ?</p>
+              <span class="material-symbols-outlined"> add </span>
+            </div>
+            <div class="answer d-none" id="answer">
+              <p>
+                Netflix is flexible. There are no annoying contracts and no
+                commitments. You can easily<br />cancel your account online in
+                two clicks. There are no cancellation fees – start or stop
+                your<br />account anytime.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq">
+            <div class="question d-flex align-center" id="question">
+              <p>How can i watch on Netflix ?</p>
+              <span class="material-symbols-outlined"> add </span>
+            </div>
+            <div class="answer d-none" id="answer">
+              <p>
+                Netflix has an extensive library of feature films,
+                documentaries, TV shows, anime, award-<br />winning Netflix
+                originals, and more. Watch as much as you want, anytime you
+                want.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq">
+            <div class="question d-flex align-center" id="question">
+              <p>Is Netflix good for kids?</p>
+              <span class="material-symbols-outlined"> add </span>
+            </div>
+            <div class="answer d-none" id="answer">
+              <p>
+                The Netflix Kids experience is included in your membership to
+                give parents control while<br>kids enjoy family-friendly TV shows
+                and films in their own space.<br><br>Kids profiles come with
+                PIN-protected parental controls that let you restrict the
+                maturity<br>rating of content kids can watch and block specific
+                titles you don’t want kids to see.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="new-user-section">
+          <h3 class="sub-heading text-white">
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </h3>
+          <div class="user-data m-auto d-flex align-center justify-center" id="user-data-2">
+            <div class="user-email p-rel">
+              <input
+                type="email"
+                name="new-email"
+                class="new-user-email p-abs"
+              />
+              <label for="new-email" class="text-white p-abs"
+                >Email address</label
+              >
+            </div>
+            <div class="get-start-btn d-flex align-center p-rel">
+              <button class="start-btn text-white">Get Started</button>
+              <span
+                class="material-symbols-outlined next-icon text-white p-abs"
+              >
+                navigate_next
               </span>
             </div>
-            <div class="answer">
-              Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies,<br>anime, documentaries and more – on thousands of internet-connected devices.<br><br>
-              
-              You can watch as much as you want, whenever you want, without a single ad – all for one<br>low monthly price. There's always something new to discover, and new TV shows and<br>movies are added every week!
-            </div>
           </div>
-
-          <div class="faq">
-            <div class="question d-flex align-center">
-              <p>What is Netflix ?</p>
-              <span class="material-symbols-outlined">
-                add
-                </span>
-            </div>
-            <div class="answer d-none">
-              Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies,<br>anime, documentaries and more – on thousands of internet-connected devices.<br><br>
-              
-              You can watch as much as you want, whenever you want, without a single ad – all for one<br>low monthly price. There's always something new to discover, and new TV shows and<br>movies are added every week!
-            </div>
-          </div>
-
-          <div class="faq">
-            <div class="question d-flex align-center">
-              <p>What is Netflix ?</p>
-              <span class="material-symbols-outlined">
-                add
-                </span>
-            </div>
-            <div class="answer d-none">
-              Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies,<br>anime, documentaries and more – on thousands of internet-connected devices.<br><br>
-              
-              You can watch as much as you want, whenever you want, without a single ad – all for one<br>low monthly price. There's always something new to discover, and new TV shows and<br>movies are added every week!
-            </div>
-          </div>
-
-          <div class="faq">
-            <div class="question d-flex align-center">
-              <p>What is Netflix ?</p>
-              <span class="material-symbols-outlined">
-                add
-                </span>
-            </div>
-            <div class="answer d-none">
-              Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies,<br>anime, documentaries and more – on thousands of internet-connected devices.<br><br>
-              
-              You can watch as much as you want, whenever you want, without a single ad – all for one<br>low monthly price. There's always something new to discover, and new TV shows and<br>movies are added every week!
-            </div>
-          </div>
-
-          <div class="faq">
-            <div class="question d-flex align-center">
-              <p>What is Netflix ?</p>
-              <span class="material-symbols-outlined">
-                add
-                </span>
-            </div>
-            <div class="answer d-none">
-              Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies,<br>anime, documentaries and more – on thousands of internet-connected devices.<br><br>
-              
-              You can watch as much as you want, whenever you want, without a single ad – all for one<br>low monthly price. There's always something new to discover, and new TV shows and<br>movies are added every week!
-            </div>
-          </div>
-
-          <div class="faq">
-            <div class="question d-flex align-center">
-              <p>What is Netflix ?</p>
-              <span class="material-symbols-outlined">
-                add
-                </span>
-            </div>
-            <div class="answer d-none">
-              Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies,<br>anime, documentaries and more – on thousands of internet-connected devices.<br><br>
-              
-              You can watch as much as you want, whenever you want, without a single ad – all for one<br>low monthly price. There's always something new to discover, and new TV shows and<br>movies are added every week!
-            </div>
-          </div>
-
         </div>
       </div>
+
     </div>
+
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
